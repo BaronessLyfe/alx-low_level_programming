@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*main-print putchar followed by a new line
-*
+*-print_ putchar followed by a new line
+*Description:not allowed to include standard libraries.
 *Return :always 0
 */
 int main(void)
