@@ -3,7 +3,7 @@
 /**
 *main-print _putchar
 *Description "main.h"
-*Return :always 0
+*Return :always 0 (Success)
 */
 int main(void)
 {
