@@ -1,11 +1,9 @@
-#include "main.h"
+#include "main.h" 
 
 /**
--print  putchar followed by a new line
-*Description.main.c
+*main-print putchar followed by a new line
 *Return :always 0
 */
-/* main.c */
 int main(void)
 {
 _putchar('_');
@@ -20,4 +18,3 @@ _putchar ('\n');
 
 return (0);
 }
-
