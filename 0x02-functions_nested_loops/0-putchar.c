@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-*-print_ putchar followed by a new line
-*Description:not allowed to include standard libraries.
+-print  putchar followed by a new line
+*Description.main.c
 *Return :always 0
 */
+/* main.c */
 int main(void)
 {
 _putchar('_');
