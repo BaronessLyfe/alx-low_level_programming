@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*  main - prints the strings "Holbertson" from a character array.
+*  main - prints the strings "putchar" from a character array.
 *  Return: 0 on success.
 */
 int main(void)
