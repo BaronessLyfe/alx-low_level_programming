@@ -1,10 +1,10 @@
+#ifndef LISTS_H
 #define LISTS_H
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * struct listint_s - singly linked list
- * Description: singly linked 
+ * Def: 0x13. C - More singly linked lists 
  */
 typedef struct listint_s
 {

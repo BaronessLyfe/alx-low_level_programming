@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
-* listint_len - returns the number of elements in a linked listint_t list
+* returns the number of elements in a linked listint_t list
 *
 * Return: number of nodes
 */
@@ -14,6 +14,5 @@ while (h)
 num++;
 h = h->next;
 }
-
-eturn (num);
+return (num);
 }
