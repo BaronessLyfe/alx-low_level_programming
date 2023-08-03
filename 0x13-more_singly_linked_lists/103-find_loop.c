@@ -13,7 +13,7 @@ listint_t *white = head;
 listint_t *beige = head;
 if (!head)
 return (NULL);
- while (white && beige && beige->next)
+while (white && beige && beige->next)
 {
 beige = beige->next->next;
 white = white->next;
