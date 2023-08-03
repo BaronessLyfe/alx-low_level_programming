@@ -2,7 +2,9 @@
 
 /**
 *function that finds the loop in a linked list
-*The address of the node where the loop starts, or NULL if there is no loop
+*Head:linked list to search
+*
+*Return:Address Adress of node  where the loop starts, or NULL if no loop
 *
 */
 listint_t *find_listint_loop(listint_t *head)
