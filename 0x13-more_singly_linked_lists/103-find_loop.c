@@ -1,8 +1,8 @@
 #include "lists.h"
 
 /**
-*function that finds the loop in a linked list
-*Head:linked list to search
+*find_listint_loop-finds the loop in a linked list
+*@head:linked list to search
 *
 *Return:Address Adress of node  where the loop starts, or NULL if no loop
 *
