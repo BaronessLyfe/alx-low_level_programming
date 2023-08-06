@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
-*flip_bits -Returns the number of bits you would need to flip.
-*
-*Always Return the number of bits you would need to flip
-*
-*/
-
+ * flip_bits - number of different bits between two numbers
+ * @n:first no
+ * @m:second no
+ *
+ * Return: number of bits you would need to flip
+ *
+ */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
-
 {
 unsigned long int result;
 unsigned long int count;
