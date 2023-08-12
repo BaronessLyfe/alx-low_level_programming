@@ -5,8 +5,7 @@
 /**
 * create_buffer - Allocates 1024 bytes for a buffer.
 * @file: The name of the file buffer is storing chars for.
-* @main - Copies the contents of a file to another file.
-* @argc: The number of arguments supplied to the program.
+* main - start point.
 * close_file - end
 * Description: If the argument count is incorrect - exit code 97.
 * If file_from does not exist or cannot be read - exit code 98.
