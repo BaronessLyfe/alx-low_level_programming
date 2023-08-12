@@ -18,7 +18,7 @@ for (len = 0; text_content[len];)
 len++;
 }
 g = open(filename, O_WRONLY | O_APPEND);
-w = write(o, text_content, len);
+w = write(g, text_content, len);
 if (g == -1 || w == -1)
 return (-1);
 close(g);
