@@ -5,11 +5,9 @@
 /**
 * create_buffer - Allocates 1024 bytes for a buffer.
 * @file: The name of the file buffer is storing chars for.
-* close_file - Closes file descriptors. 
-* @lc: The file descriptor to be closed.
-* main - Copies the contents of a file to another file.
+* @main - Copies the contents of a file to another file.
 * @argc: The number of arguments supplied to the program.
-* @argv: An array of pointers to the arguments.
+* close_file - end
 * Description: If the argument count is incorrect - exit code 97.
 * If file_from does not exist or cannot be read - exit code 98.
 * If file_to cannot be created or written to - exit code 99.
