@@ -2,10 +2,12 @@
 #include <stdlib.h>
 
 /**
-* main - copy info from file_from to file_to.
-* @zz: number of arguments
-* @ll: array of arguments
-* Return: Always 0.
+*create_buffer - Allocates 1024 bytes at a time
+*@zz: number of arguments
+*@ll: array of arguments
+* 
+* Return: Always 0
+*
 */
 
 int main(int zz, char **ll)
@@ -36,6 +38,9 @@ if (l_write == -1)
 { dprintf(STDERR_FILENO, "Error: Can't write to %s\n", ll[2]);
 exit(99); }
 }
+/**
+* close_file - Closes file descriptors.
+*/
 close_file = close(file_from);
 if (close_file == -1)
 { dprintf(STDERR_FILENO, "Error: Can't close fd  %d\n", file_from);
